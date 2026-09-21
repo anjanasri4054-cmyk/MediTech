@@ -26,15 +26,26 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
           onClick={() => setCurrentTab('home')}
           className="flex items-center gap-2.5 text-left group"
         >
-          <div className="w-8 h-8 rounded-xl bg-slate-900 text-teal-400 flex items-center justify-center font-black shadow-sm">
-            <Activity className="w-4 h-4" />
+          <div className="w-9 h-9 rounded-xl bg-teal-700 text-white flex items-center justify-center shadow-xs transition-transform group-hover:scale-105">
+            <svg
+              className="w-5 h-5 text-white"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+              <path d="M3.22 12H9.5l1.5-3 2 6 1.5-3h6.28" />
+            </svg>
           </div>
           <div>
             <span className="font-extrabold text-base tracking-tight text-slate-900 block leading-tight">
-              RXBRIDGE
+              MediBridge
             </span>
-            <span className="text-[10px] text-slate-500 font-medium hidden sm:block">
-              From Prescription to Care
+            <span className="text-[11px] text-teal-700 font-medium hidden sm:block">
+              Living medication record
             </span>
           </div>
         </button>

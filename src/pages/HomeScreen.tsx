@@ -29,7 +29,7 @@ export const HomeScreen: React.FC<{ onNavigate: (tab: 'home' | 'scan' | 'plan' |
         </h1>
 
         <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-          RXBRIDGE turns prescription information into a clear, multilingual medication plan and helps caregivers stay informed.
+          MediBridge turns prescription information into a clear, multilingual medication plan and helps caregivers stay informed.
         </p>
 
         {/* Action Buttons */}
@@ -55,7 +55,7 @@ export const HomeScreen: React.FC<{ onNavigate: (tab: 'home' | 'scan' | 'plan' |
       <div className="p-6 sm:p-8 bg-white rounded-2xl border border-slate-200 shadow-sm space-y-6">
         <div className="text-center">
           <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-            The RXBRIDGE Workflow
+            The MediBridge Workflow
           </span>
         </div>
 

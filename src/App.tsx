@@ -37,9 +37,9 @@ function MainApp() {
       <footer className="border-t border-slate-200 bg-white py-6">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
           <p className="font-semibold text-slate-700">
-            RXBRIDGE — From Prescription to Care.
+            MediBridge — Living medication record.
           </p>
-          <p>© 2026 RXBRIDGE Technologies Inc. All rights reserved.</p>
+          <p>© 2026 MediBridge Inc. All rights reserved.</p>
         </div>
       </footer>
     </div>

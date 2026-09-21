@@ -9,7 +9,7 @@ export const SafetyNotice: React.FC = () => {
         <span>Safety & Non-Diagnostic Compliance Notice</span>
       </div>
       <p className="leading-relaxed">
-        RXBRIDGE helps organize and explain prescription information. It does not diagnose conditions, prescribe medication, change dosage, or replace advice from a qualified healthcare professional.
+        MediBridge helps organize and explain prescription information. It does not diagnose conditions, prescribe medication, change dosage, or replace advice from a qualified healthcare professional.
       </p>
     </div>
   );
